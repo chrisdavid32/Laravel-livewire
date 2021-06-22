@@ -3,4 +3,5 @@
 @section('content')
 <livewire:my-component />
 
+<livewire:second-component />
 @endsection
