@@ -15,4 +15,9 @@ class Message extends Component
         $this->activeMessage = $this->message[$c];
         return view('livewire.message');
     }
+
+    public function getNewMessage()
+    {
+        $this->count++;
+    }
 }
